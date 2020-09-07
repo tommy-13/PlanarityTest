@@ -4,5 +4,7 @@
  
  Note that the implementation has only been tested for a few family of graphs, so there is no warranty that it works in every case.
  
+ The input graph should be simple (no self-loops, no parallel edges) and is considered as an undirected graph.
+ 
 # Known issues
 The translation from a rotation system (as a result of the left-right planarity test) to a drawing (using the algorithm of de Fraysseix, Pach and Pollack) is currently not working for all graphs.
